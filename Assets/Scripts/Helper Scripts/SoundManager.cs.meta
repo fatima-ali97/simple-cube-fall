@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 267ead82c45ae914888063cfe9045656
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - soundFX: {instanceID: 0}
+  - landClip: {fileID: 8300000, guid: d0d48e5484359654c8c975afac9628a8, type: 3}
+  - deathClip: {fileID: 8300000, guid: d406d76404288bc428ba2e85dc4b7575, type: 3}
+  - iceBreakClip: {fileID: 8300000, guid: 54980d996eda55642a2ccff7792ebc3a, type: 3}
+  - gameOverClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
