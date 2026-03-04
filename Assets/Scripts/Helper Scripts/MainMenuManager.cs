@@ -17,13 +17,20 @@ public class MainMenuManager : MonoBehaviour
         {
             Debug.LogError("No UIDocument found on MainMenuManager.");
         }
-        
         _playButton = _uiDocument.rootVisualElement.Q<Button>("Play_Button");
         _playButton.RegisterCallback<ClickEvent>(LoadGameScene);
+        
+        _settingsButton = _uiDocument.rootVisualElement.Q<Button>("Settings_Button");
+        _settingsButton.RegisterCallback<ClickEvent>(ShowSettingsUI);
     }
 
     private void LoadGameScene(ClickEvent evt)
     {
         SceneManager.LoadScene("Gameplay");
+    }
+    
+    private void ShowSettingsUI(ClickEvent evt)
+    {
+        SettingsUIManager.Instance.SetVisible();
     }
 }

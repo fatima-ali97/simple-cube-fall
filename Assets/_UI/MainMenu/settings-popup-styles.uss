@@ -1,0 +1,49 @@
+.unity-toggle__label {
+}
+
+.unity-slider__label {
+}
+
+.settings-button:hover {
+}
+
+.settings-button {
+}
+
+.settings-option {
+    align-self: center;
+    width: 80%;
+    font-size: 15px;
+}
+
+.settings-label {
+    -unity-text-align: upper-center;
+    font-size: 40px;
+}
+
+.settings-panel {
+    justify-content: center;
+    background-color: rgb(111, 172, 204);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 94%;
+    height: 80%;
+    max-height: 80%;
+}
+
+.settings-root {
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
