@@ -39,13 +39,24 @@
 }
 
 .main-menu-button {
-    font-size: 24px;
-    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    font-size: 39px;
+    -unity-font-definition: url("project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&guid=99699f012aefb804db0bb144942b5d7d&type=3#Jersey10-Regular");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 20px;
+    -unity-font-style: normal;
+    background-color: rgb(27, 36, 44);
+    color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
 }
 
 .button-container {
@@ -71,6 +82,6 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    cursor: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4154780841294389669&guid=0c86adf8315db85489e1cb88c324c39b&type=3#arrow-down");
-    background-color: rgb(33, 44, 53);
+    cursor: initial;
+    background-color: rgb(95, 179, 255);
 }

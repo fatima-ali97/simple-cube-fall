@@ -4,7 +4,7 @@
         <ui:VisualElement name="Background_Image" class="background-image" style="flex-grow: 1;" />
         <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
             <ui:VisualElement name="TitleText_Container" class="title-text-container" style="flex-grow: 1;">
-                <ui:Label text="CUBE&#10;FALL" name="TitleText_Label" class="title-text-label" />
+                <ui:Label text="CUBE&#10;FALL" name="TitleText_Label" class="title-text-label" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jersey10-Regular.ttf?fileID=12800000&amp;guid=99699f012aefb804db0bb144942b5d7d&amp;type=3#Jersey10-Regular&quot;); font-size: 110px; color: rgb(95, 179, 255);" />
             </ui:VisualElement>
             <ui:VisualElement name="Button_Container" class="button-container" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-items: stretch; margin-top: 30px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
                 <ui:Button text="Play" name="Play_Button" class="main-menu-button" />
