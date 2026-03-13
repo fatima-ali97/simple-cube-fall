@@ -38,11 +38,9 @@ public class PlayerBounds : MonoBehaviour
     {
         if (target.tag == "TopSpike")
         {
-            //transform.position = new Vector2(1000f,1000f);
             transform.position = new Vector2(1000f, 1000f);
             
-            //transform.position = new Vector2(0f, 2f); // respawn at a safe spot
-            //mybody.linearVelocity = Vector2.zero; // reset velocity!
+           
             SoundManager.instance.LandSound();
             GameManager.instance.restartGame();
         }

@@ -390,10 +390,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFX: {fileID: 1374693627}
+  bgMusic: {fileID: 0}
   landClip: {fileID: 8300000, guid: d0d48e5484359654c8c975afac9628a8, type: 3}
   deathClip: {fileID: 8300000, guid: d406d76404288bc428ba2e85dc4b7575, type: 3}
   iceBreakClip: {fileID: 8300000, guid: 54980d996eda55642a2ccff7792ebc3a, type: 3}
-  gameOverClip: {fileID: 0}
+  gameOverClip: {fileID: 8300000, guid: e1d4f860134318940b528f8758ef8eac, type: 3}
 --- !u!82 &1374693627
 AudioSource:
   m_ObjectHideFlags: 0
@@ -405,7 +406,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 18804d7d5c284b64f8de92508fef1f26, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
