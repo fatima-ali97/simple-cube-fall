@@ -51,7 +51,11 @@ public class SettingsUIManager : MonoBehaviour
         
         SetInvisible();
     }
-    
+    // void OnEnable() {
+    //     // Sync UI to current state when panel opens
+    //     volumeSlider.value = SoundManager.instance.GetCurrentVolume();
+    //     muteToggle.value = SoundManager.instance.IsMuted();
+    // }
     public void SetVisible()
     {
         _root.RemoveFromClassList("hide");
