@@ -8,12 +8,17 @@
 }
 
 .settings-button {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .settings-option {
     align-self: center;
     width: 80%;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .settings-label {
