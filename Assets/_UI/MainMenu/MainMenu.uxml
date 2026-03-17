@@ -9,7 +9,7 @@
             <ui:VisualElement name="Button_Container" class="button-container" style="flex-grow: 1; justify-content: flex-start; align-self: auto; align-items: stretch; margin-top: 30px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
                 <ui:Button text="Play" name="Play_Button" class="main-menu-button" />
                 <ui:Button text="Settings" name="Settings_Button" class="main-menu-button" />
-                <ui:Button text="Credits" name="Credits_Button" class="main-menu-button" />
+                <ui:Button text="Exit" name="Credits_Button" class="main-menu-button" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
