@@ -15,10 +15,18 @@
     width: 75%;
     height: 75%;
     max-height: 75%;
-    border-top-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-    border-left-width: 3px;
+    /*border-top-width: 3px;*/
+    /*border-right-width: 3px;*/
+    /*border-bottom-width: 3px;*/
+    /*border-left-width: 3px;*/
+    /*border-top-color: rgba(224, 244, 255, 0.15);*/
+    /*border-right-color: rgba(224, 244, 255, 0.15);*/
+    /*border-bottom-color: rgba(224, 244, 255, 0.15);*/
+    /*border-left-color: rgba(224, 244, 255, 0.15);*/
+    /*border-top-left-radius: 16px;*/
+    /*border-top-right-radius: 16px;*/
+    /*border-bottom-right-radius: 16px;*/
+    /*border-bottom-left-radius: 16px;*/
 }
 
 .title-text-container {
@@ -34,7 +42,7 @@
     font-size: 80px;
     -unity-text-align: middle-center;
     text-overflow: clip;
-    color: rgb(255, 255, 255);
+    color: rgb(224, 244, 255);
     -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
 }
 
@@ -69,19 +77,19 @@
 }
 
 .main-menu-button:hover {
-    color: rgb(255, 255, 255);
-    border-left-color: rgb(24, 32, 41);
-    border-right-color: rgb(24, 32, 41);
-    border-top-color: rgb(24, 32, 41);
-    border-bottom-color: rgb(24, 32, 41);
-    border-top-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-    border-left-width: 3px;
+    color: rgb(22, 30, 44);
+    border-left-color: rgb(126, 207, 255);
+    border-right-color: rgb(126, 207, 255);
+    border-top-color: rgb(126, 207, 255);
+    border-bottom-color: rgb(126, 207, 255);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     cursor: initial;
-    background-color: rgb(95, 179, 255);
+    background-color: rgb(224, 244, 255);
 }
