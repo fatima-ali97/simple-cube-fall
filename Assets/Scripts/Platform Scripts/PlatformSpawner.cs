@@ -70,7 +70,7 @@ public class PlatformSpawner : MonoBehaviour
 
                 } else {
 
-                    newPlatform = Instantiate(SpikePlatformPrefab, temp, Quaternion.identity);
+                    newPlatform = Instantiate(BreakablePlatform, temp, Quaternion.identity);
 
                 }
 
