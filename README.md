@@ -7,6 +7,8 @@ cube fall is a simple C# game created in Unity.
 - unity 6.0
 - unity hub
 
+## download the game
+You can find and download the game via this google drive [link](https://drive.google.com/drive/folders/1k-07TXGyNMBqc1O8pwUT9KLp6N7WasmZ?usp=sharing). 
 
 ## credits
 The game is an implementation of 
